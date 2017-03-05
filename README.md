@@ -1,15 +1,15 @@
 # php-dependency-injection
 
-´´½¨µ¥ÀýÊ¹ÓÃ£º
-
+æ³¨å†Œå•ä¾‹ï¼š
+```php
     $di->setShared($serviceName, $definition)
-
-»òÕß
-
+```
+æˆ–è€…
+```php
     $di->set($serviceName, $definition, true)
-
-Example£º
-
+```
+Exampleï¼š
+```php
     <?php
     require 'Library/Di.php';
     require 'Library/Foo.php';
@@ -52,3 +52,4 @@ Example£º
     
     echo $di->foo5->bar();//magic methods
     //hello world
+```
